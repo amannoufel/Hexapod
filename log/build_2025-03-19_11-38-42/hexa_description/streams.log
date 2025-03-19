@@ -1,0 +1,20 @@
+[0.600s] Invoking command in '/home/aman/ros2_ws/build/hexa_description': PYTHONPATH=/home/aman/ros2_ws/build/hexa_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aman/ros2_ws/build/hexa_description/build --no-deps symlink_data
+[0.681s] /home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.681s]   warnings.warn(msg)
+[0.786s] running develop
+[0.918s] running egg_info
+[0.927s] writing hexa_description.egg-info/PKG-INFO
+[0.927s] writing dependency_links to hexa_description.egg-info/dependency_links.txt
+[0.927s] writing entry points to hexa_description.egg-info/entry_points.txt
+[0.927s] writing requirements to hexa_description.egg-info/requires.txt
+[0.928s] writing top-level names to hexa_description.egg-info/top_level.txt
+[0.946s] reading manifest file 'hexa_description.egg-info/SOURCES.txt'
+[0.947s] writing manifest file 'hexa_description.egg-info/SOURCES.txt'
+[0.977s] running build_ext
+[0.977s] Creating /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa-description.egg-link (link to .)
+[0.978s] Installing hexapod_walker script to /home/aman/ros2_ws/install/hexa_description/lib/hexa_description
+[0.978s] 
+[0.978s] Installed /home/aman/ros2_ws/build/hexa_description
+[0.978s] running symlink_data
+[0.978s] error: can't copy '/home/aman/ros2_ws/build/hexa_description/launch/hexapod_controller.launch.py': doesn't exist or not a regular file
+[0.996s] Invoked command in '/home/aman/ros2_ws/build/hexa_description' returned '1': PYTHONPATH=/home/aman/ros2_ws/build/hexa_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aman/ros2_ws/build/hexa_description/build --no-deps symlink_data

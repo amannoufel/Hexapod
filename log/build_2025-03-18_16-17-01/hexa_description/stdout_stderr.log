@@ -1,0 +1,67 @@
+/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/hexa_description/hexa_description.egg-info
+writing ../../build/hexa_description/hexa_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/hexa_description/hexa_description.egg-info/dependency_links.txt
+writing entry points to ../../build/hexa_description/hexa_description.egg-info/entry_points.txt
+writing requirements to ../../build/hexa_description/hexa_description.egg-info/requires.txt
+writing top-level names to ../../build/hexa_description/hexa_description.egg-info/top_level.txt
+writing manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description
+copying hexa_description/__init__.py -> /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description
+copying hexa_description/hexapod_walker.py -> /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description
+running install
+running install_lib
+creating /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description
+copying /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description/__init__.py -> /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description
+copying /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description/hexapod_walker.py -> /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description
+byte-compiling /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description/hexapod_walker.py to hexapod_walker.cpython-310.pyc
+running install_data
+creating /home/aman/ros2_ws/install/hexa_description/share/ament_index/resource_index/packages
+copying resource/hexa_description -> /home/aman/ros2_ws/install/hexa_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description
+creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch
+copying launch/gazebo.launch.py -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch
+copying launch/display.launch.py -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch
+creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+copying urdf/hexa.gazebo -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+copying urdf/materials.xacro -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+copying urdf/hexa.trans -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+copying urdf/hexa.xacro -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/T4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/T6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/5F_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/C6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/T5_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/base_link.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/C2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/C5_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/C3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/F2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/T3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/F4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/T2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/F6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/F1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/F3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/C1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/T1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+copying meshes/C4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+copying config/hardware_interface.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+copying config/display.rviz -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+copying config/controllersremove.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+copying config/controllers.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/controllers
+running install_egg_info
+Copying ../../build/hexa_description/hexa_description.egg-info to /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hexapod_walker script to /home/aman/ros2_ws/install/hexa_description/lib/hexa_description
+writing list of installed files to '/home/aman/ros2_ws/build/hexa_description/install.log'
