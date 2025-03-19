@@ -1,0 +1,69 @@
+[0.606s] Invoking command in '/home/aman/ros2_ws/src/hexa_description': PYTHONPATH=/home/aman/ros2_ws/build/hexa_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexa_description build --build-base /home/aman/ros2_ws/build/hexa_description/build install --record /home/aman/ros2_ws/build/hexa_description/install.log --single-version-externally-managed install_data
+[0.700s] /home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.700s]   warnings.warn(msg)
+[0.770s] running egg_info
+[0.780s] creating ../../build/hexa_description/hexa_description.egg-info
+[0.780s] writing ../../build/hexa_description/hexa_description.egg-info/PKG-INFO
+[0.780s] writing dependency_links to ../../build/hexa_description/hexa_description.egg-info/dependency_links.txt
+[0.781s] writing entry points to ../../build/hexa_description/hexa_description.egg-info/entry_points.txt
+[0.781s] writing requirements to ../../build/hexa_description/hexa_description.egg-info/requires.txt
+[0.781s] writing top-level names to ../../build/hexa_description/hexa_description.egg-info/top_level.txt
+[0.781s] writing manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'
+[0.802s] reading manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'
+[0.803s] writing manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'
+[0.803s] running build
+[0.803s] running build_py
+[0.803s] creating /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description
+[0.803s] copying hexa_description/__init__.py -> /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description
+[0.803s] copying hexa_description/hexapod_walker.py -> /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description
+[0.808s] running install
+[0.811s] running install_lib
+[0.822s] creating /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description
+[0.823s] copying /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description/__init__.py -> /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description
+[0.823s] copying /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description/hexapod_walker.py -> /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description
+[0.823s] byte-compiling /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description/__init__.py to __init__.cpython-310.pyc
+[0.823s] byte-compiling /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description/hexapod_walker.py to hexapod_walker.cpython-310.pyc
+[0.823s] running install_data
+[0.823s] creating /home/aman/ros2_ws/install/hexa_description/share/ament_index/resource_index/packages
+[0.823s] copying resource/hexa_description -> /home/aman/ros2_ws/install/hexa_description/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description
+[0.824s] creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch
+[0.824s] copying launch/gazebo.launch.py -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch
+[0.824s] copying launch/display.launch.py -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch
+[0.824s] creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+[0.824s] copying urdf/hexa.gazebo -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+[0.824s] copying urdf/materials.xacro -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+[0.824s] copying urdf/hexa.trans -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+[0.824s] copying urdf/hexa.xacro -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf
+[0.825s] creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.825s] copying meshes/T4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.825s] copying meshes/T6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.827s] copying meshes/5F_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.827s] copying meshes/C6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.828s] copying meshes/T5_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.829s] copying meshes/base_link.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.831s] copying meshes/C2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.832s] copying meshes/C5_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.833s] copying meshes/C3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.834s] copying meshes/F2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.835s] copying meshes/T3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.835s] copying meshes/F4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.836s] copying meshes/T2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.837s] copying meshes/F6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.837s] copying meshes/F1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.838s] copying meshes/F3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.839s] copying meshes/C1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.840s] copying meshes/T1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.840s] copying meshes/C4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes
+[0.842s] creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+[0.842s] copying config/hardware_interface.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+[0.842s] copying config/display.rviz -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+[0.842s] copying config/controllersremove.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+[0.842s] copying config/controllers.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config
+[0.842s] creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/controllers
+[0.842s] running install_egg_info
+[0.853s] Copying ../../build/hexa_description/hexa_description.egg-info to /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description-0.0.0-py3.10.egg-info
+[0.854s] running install_scripts
+[0.946s] Installing hexapod_walker script to /home/aman/ros2_ws/install/hexa_description/lib/hexa_description
+[0.946s] writing list of installed files to '/home/aman/ros2_ws/build/hexa_description/install.log'
+[0.961s] Invoked command in '/home/aman/ros2_ws/src/hexa_description' returned '0': PYTHONPATH=/home/aman/ros2_ws/build/hexa_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexa_description build --build-base /home/aman/ros2_ws/build/hexa_description/build install --record /home/aman/ros2_ws/build/hexa_description/install.log --single-version-externally-managed install_data

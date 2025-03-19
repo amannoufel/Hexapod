@@ -1,0 +1,3 @@
+/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+error: can't copy '/home/aman/ros2_ws/build/hexa_description/launch/hexapod_controller.launch.py': doesn't exist or not a regular file

@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (hexa_description) JobQueued: {'identifier': 'hexa_description', 'dependencies': OrderedDict()}
+[0.000806] (hexa_description) JobStarted: {'identifier': 'hexa_description'}
+[0.100089] (-) TimerEvent: {}
+[0.200427] (-) TimerEvent: {}
+[0.300765] (-) TimerEvent: {}
+[0.401090] (-) TimerEvent: {}
+[0.501389] (-) TimerEvent: {}
+[0.601730] (-) TimerEvent: {}
+[0.605075] (hexa_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hexa_description', 'build', '--build-base', '/home/aman/ros2_ws/build/hexa_description/build', 'install', '--record', '/home/aman/ros2_ws/build/hexa_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aman/ros2_ws/src/hexa_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'aman', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.6/lib64:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aman', 'OLDPWD': '/home/aman', 'DESKTOP_SESSION': 'ubuntu-xorg', 'NVM_BIN': '/home/aman/.nvm/versions/node/v22.13.0/bin', 'NVM_INC': '/home/aman/.nvm/versions/node/v22.13.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '71649', 'SYSTEMD_EXEC_PID': '72267', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '75769', 'NVM_DIR': '/home/aman/.nvm', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aman', 'JOURNAL_STREAM': '8:712865', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aman', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.6/bin:/home/aman/.nvm/versions/node/v22.13.0/bin:/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/aman/.cargo/bin:/home/aman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aman/.local/bin', 'SESSION_MANAGER': 'local/aman-Predator-PHN16-71:@/tmp/.ICE-unix/72226,unix/aman-Predator-PHN16-71:/tmp/.ICE-unix/72226', 'INVOCATION_ID': 'be13d203a6884f58a025fed6b04d4c4f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:09e48153-0f39-441b-b896-fc68514df313', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aman/ros2_ws/build/hexa_description', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda-12.6', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aman/ros2_ws/build/hexa_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CUDA_PATH': '/usr/local/cuda-12.6'}, 'shell': False}
+[0.701104] (hexa_description) StderrLine: {'line': b"/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.701237] (hexa_description) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.701879] (-) TimerEvent: {}
+[0.770996] (hexa_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.780946] (hexa_description) StdoutLine: {'line': b'creating ../../build/hexa_description/hexa_description.egg-info\n'}
+[0.781010] (hexa_description) StdoutLine: {'line': b'writing ../../build/hexa_description/hexa_description.egg-info/PKG-INFO\n'}
+[0.781187] (hexa_description) StdoutLine: {'line': b'writing dependency_links to ../../build/hexa_description/hexa_description.egg-info/dependency_links.txt\n'}
+[0.781348] (hexa_description) StdoutLine: {'line': b'writing entry points to ../../build/hexa_description/hexa_description.egg-info/entry_points.txt\n'}
+[0.781390] (hexa_description) StdoutLine: {'line': b'writing requirements to ../../build/hexa_description/hexa_description.egg-info/requires.txt\n'}
+[0.781509] (hexa_description) StdoutLine: {'line': b'writing top-level names to ../../build/hexa_description/hexa_description.egg-info/top_level.txt\n'}
+[0.781533] (hexa_description) StdoutLine: {'line': b"writing manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'\n"}
+[0.801987] (-) TimerEvent: {}
+[0.803104] (hexa_description) StdoutLine: {'line': b"reading manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'\n"}
+[0.803849] (hexa_description) StdoutLine: {'line': b"writing manifest file '../../build/hexa_description/hexa_description.egg-info/SOURCES.txt'\n"}
+[0.803890] (hexa_description) StdoutLine: {'line': b'running build\n'}
+[0.803917] (hexa_description) StdoutLine: {'line': b'running build_py\n'}
+[0.803958] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description\n'}
+[0.804010] (hexa_description) StdoutLine: {'line': b'copying hexa_description/__init__.py -> /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description\n'}
+[0.804089] (hexa_description) StdoutLine: {'line': b'copying hexa_description/hexapod_walker.py -> /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description\n'}
+[0.808925] (hexa_description) StdoutLine: {'line': b'running install\n'}
+[0.812044] (hexa_description) StdoutLine: {'line': b'running install_lib\n'}
+[0.823265] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description\n'}
+[0.823377] (hexa_description) StdoutLine: {'line': b'copying /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description/__init__.py -> /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description\n'}
+[0.823411] (hexa_description) StdoutLine: {'line': b'copying /home/aman/ros2_ws/build/hexa_description/build/lib/hexa_description/hexapod_walker.py -> /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description\n'}
+[0.823631] (hexa_description) StdoutLine: {'line': b'byte-compiling /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description/__init__.py to __init__.cpython-310.pyc\n'}
+[0.823721] (hexa_description) StdoutLine: {'line': b'byte-compiling /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description/hexapod_walker.py to hexapod_walker.cpython-310.pyc\n'}
+[0.824046] (hexa_description) StdoutLine: {'line': b'running install_data\n'}
+[0.824181] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/share/ament_index/resource_index/packages\n'}
+[0.824299] (hexa_description) StdoutLine: {'line': b'copying resource/hexa_description -> /home/aman/ros2_ws/install/hexa_description/share/ament_index/resource_index/packages\n'}
+[0.824396] (hexa_description) StdoutLine: {'line': b'copying package.xml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description\n'}
+[0.824466] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch\n'}
+[0.824514] (hexa_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch\n'}
+[0.824666] (hexa_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/launch\n'}
+[0.824818] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf\n'}
+[0.824863] (hexa_description) StdoutLine: {'line': b'copying urdf/hexa.gazebo -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf\n'}
+[0.824989] (hexa_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf\n'}
+[0.825113] (hexa_description) StdoutLine: {'line': b'copying urdf/hexa.trans -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf\n'}
+[0.825293] (hexa_description) StdoutLine: {'line': b'copying urdf/hexa.xacro -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/urdf\n'}
+[0.825516] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.825558] (hexa_description) StdoutLine: {'line': b'copying meshes/T4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.826272] (hexa_description) StdoutLine: {'line': b'copying meshes/T6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.827326] (hexa_description) StdoutLine: {'line': b'copying meshes/5F_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.828217] (hexa_description) StdoutLine: {'line': b'copying meshes/C6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.829029] (hexa_description) StdoutLine: {'line': b'copying meshes/T5_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.829967] (hexa_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.831687] (hexa_description) StdoutLine: {'line': b'copying meshes/C2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.832471] (hexa_description) StdoutLine: {'line': b'copying meshes/C5_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.833935] (hexa_description) StdoutLine: {'line': b'copying meshes/C3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.834741] (hexa_description) StdoutLine: {'line': b'copying meshes/F2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.835553] (hexa_description) StdoutLine: {'line': b'copying meshes/T3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.836243] (hexa_description) StdoutLine: {'line': b'copying meshes/F4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.836815] (hexa_description) StdoutLine: {'line': b'copying meshes/T2_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.837575] (hexa_description) StdoutLine: {'line': b'copying meshes/F6_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.838292] (hexa_description) StdoutLine: {'line': b'copying meshes/F1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.839027] (hexa_description) StdoutLine: {'line': b'copying meshes/F3_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.839390] (hexa_description) StdoutLine: {'line': b'copying meshes/C1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.840403] (hexa_description) StdoutLine: {'line': b'copying meshes/T1_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.840983] (hexa_description) StdoutLine: {'line': b'copying meshes/C4_1.stl -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/meshes\n'}
+[0.842420] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config\n'}
+[0.842500] (hexa_description) StdoutLine: {'line': b'copying config/hardware_interface.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config\n'}
+[0.842649] (hexa_description) StdoutLine: {'line': b'copying config/display.rviz -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config\n'}
+[0.842711] (hexa_description) StdoutLine: {'line': b'copying config/controllersremove.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config\n'}
+[0.842845] (hexa_description) StdoutLine: {'line': b'copying config/controllers.yaml -> /home/aman/ros2_ws/install/hexa_description/share/hexa_description/config\n'}
+[0.842906] (hexa_description) StdoutLine: {'line': b'creating /home/aman/ros2_ws/install/hexa_description/share/hexa_description/controllers\n'}
+[0.842936] (hexa_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.854128] (hexa_description) StdoutLine: {'line': b'Copying ../../build/hexa_description/hexa_description.egg-info to /home/aman/ros2_ws/install/hexa_description/lib/python3.10/site-packages/hexa_description-0.0.0-py3.10.egg-info\n'}
+[0.854696] (hexa_description) StdoutLine: {'line': b'running install_scripts\n'}
+[0.902154] (-) TimerEvent: {}
+[0.946512] (hexa_description) StdoutLine: {'line': b'Installing hexapod_walker script to /home/aman/ros2_ws/install/hexa_description/lib/hexa_description\n'}
+[0.946692] (hexa_description) StdoutLine: {'line': b"writing list of installed files to '/home/aman/ros2_ws/build/hexa_description/install.log'\n"}
+[0.962115] (hexa_description) CommandEnded: {'returncode': 0}
+[0.971527] (hexa_description) JobEnded: {'identifier': 'hexa_description', 'rc': 0}
+[0.971864] (-) EventReactorShutdown: {}

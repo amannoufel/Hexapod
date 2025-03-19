@@ -1,0 +1,2 @@
+[console_scripts]
+hexapod_walker = hexa_description.hexapod_walker:main
